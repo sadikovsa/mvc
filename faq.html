@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+	<title>MVC Car rent</title>
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3">
+	<!-- Template Basic Images Start -->
+	<link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="img/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<link rel="stylesheet" href="css/main.min.css">
+
+	<!--[if IE 9]>
+   <link href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie9.min.css" rel="stylesheet">
+<![endif]-->
+	<!--[if lte IE 8]>
+   <link href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie8.min.css" rel="stylesheet">
+   <script src="https://cdn.jsdelivr.net/g/html5shiv@3.7.3"></script>
+<![endif]-->
+	<script src="libs/jquery/dist/jquery.min.js" defer></script>
+	<script src="js/libs.min.js" defer></script>
+	<script src="js/common.js" defer></script>
+</head>
+
+<body>
+	<header id="header" class="header header-inner">
+		<div class="container">
+			<div class="header-content">
+				<ul class="header-menu">
+					<li class="header-menu-item"><a href="#" class="header-menu-link">Главная</a></li>
+					<li class="header-menu-item"><a href="#" class="header-menu-link">Авто</a></li>
+					<li class="header-menu-item"><a href="#" class="header-menu-link">FAQ</a></li>
+					<li class="header-menu-item"><a href="#" class="header-menu-link">Блог</a></li>
+					<li class="header-menu-item"><a href="#" class="header-menu-link">Контакты</a></li>
+				</ul>
+				<a href="#" class="header-logo">
+					<img src="img/logo.png" alt="Logo">
+				</a>
+				<div class="header-right">
+					<button type="button" class="callback-btn">
+						<span class="icon-phone"></span>
+						Call us
+					</button>
+					<a href="#" class="header-whatsupp"><span class="icon-whatsapp"></span></a>
+					<div class="header-lang">
+						<a href="#" class="header-lang-active"><img src="img/icons/translate-icon.png" alt="icon">ENGLISH</a>
+						<ul class="header-lang-menu">
+							<li class="header-lang-menu-item"><a href="#" class="header-lang-menu-link">Русский</a></li>
+							<li class="header-lang-menu-item"><a href="#" class="header-lang-menu-link">ENGLISH</a></li>
+							<li class="header-lang-menu-item"><a href="#" class="header-lang-menu-link">CHINA</a></li>
+						</ul>
+					</div>
+					<ul class="header-social">
+						<li class="header-social-item"><a href="#" class="header-social-link fb"><span class="icon-facebook"></span></a></li>
+						<li class="header-social-item"><a href="#" class="header-social-link insta"><span class="icon-instagram"></span></a></li>
+						<li class="header-social-item"><a href="#" class="header-social-link youtube"><span class="icon-youtube"></span></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main class="main inner-pages">
+		<section class="faq-section">
+			<div class="container">
+				<h2 class="title">General questions</h2>
+				<div class="accordion faq-accordion" id="faqAccordion">
+					<div class="card">
+						<div class="card-header" id="headingOne">
+							<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								Is account registration required? <span></span>
+							</button>
+						</div>
+
+						<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#faqAccordion">
+							<div class="card-body">
+								A lot of the content of the site has been submitted by the community. Whether it is a commercial element/template/theme or a free one, you are encouraged to contribute. All credits are published along with the resources. A lot of the content of the site has been submitted by the community. Whether it is a commercial element/template/theme or a free one, you are encouraged to contribute. All credits are published along with the resources. 
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-header" id="headingTwo">
+							<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+								Can I submit my own Bootstrap templates or themes? <span></span>
+							</button>
+						</div>
+						<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqAccordion">
+							<div class="card-body">
+								A lot of the content of the site has been submitted by the community. Whether it is a commercial element/template/theme or a free one, you are encouraged to contribute. All credits are published along with the resources. A lot of the content of the site has been submitted by the community. Whether it is a commercial element/template/theme or a free one, you are encouraged to contribute. All credits are published along with the resources. 
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-header" id="headingThree">
+							<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+								What is the currency used for all transactions? <span></span>
+							</button>
+						</div>
+						<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqAccordion">
+							<div class="card-body">
+								A lot of the content of the site has been submitted by the community. Whether it is a commercial element/template/theme or a free one, you are encouraged to contribute. All credits are published along with the resources. A lot of the content of the site has been submitted by the community. Whether it is a commercial element/template/theme or a free one, you are encouraged to contribute. All credits are published along with the resources. 
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="instagram-section">
+			<div class="container">
+				<h3 class="title"><span class="icon-instagram"></span> Наша лента Instagram</h3>
+				<div class="instagram-block-wrapper">
+					<a data-fancybox="gallery" href="img/cars/car-insta-1.jpg" class="instagram-block">
+						<img src="img/cars/car-insta-1.jpg">
+					</a>
+					<a data-fancybox="gallery" href="img/cars/car-insta-2.jpg" class="instagram-block">
+						<img src="img/cars/car-insta-2.jpg">
+					</a>
+					<a data-fancybox="gallery" href="img/cars/car-insta-3.jpg" class="instagram-block">
+						<img src="img/cars/car-insta-3.jpg">
+					</a>
+					<a data-fancybox="gallery" href="img/cars/car-insta-4.jpg" class="instagram-block">
+						<img src="img/cars/car-insta-4.jpg">
+					</a>
+					<a data-fancybox="gallery" href="img/cars/car-insta-5.jpg" class="instagram-block">
+						<img src="img/cars/car-insta-5.jpg">
+					</a>
+					<a data-fancybox="gallery" href="img/cars/car-insta-6.jpg" class="instagram-block">
+						<img src="img/cars/car-insta-6.jpg">
+					</a>
+					<a data-fancybox="gallery" href="img/cars/car-insta-7.jpg" class="instagram-block">
+						<img src="img/cars/car-insta-7.jpg">
+					</a>
+					<a data-fancybox="gallery" href="img/cars/car-insta-8.jpg" class="instagram-block">
+						<img src="img/cars/car-insta-8.jpg">
+					</a>
+					<a data-fancybox="gallery" href="img/cars/car-insta-9.jpg" class="instagram-block">
+						<img src="img/cars/car-insta-9.jpg">
+					</a>
+					<a data-fancybox="gallery" href="img/cars/car-insta-10.jpg" class="instagram-block">
+						<img src="img/cars/car-insta-10.jpg">
+					</a>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="container">
+			<h2 class="title-big text-center">Contacts</h2>
+			<div class="footer-content">
+				<div class="footer-content-block">
+					<p class="footer-content-block-title">Контакты</p>
+					<div class="footer-contacts-wrapper">
+						<div class="footer-contacts-block">
+							<p class="footer-contacts-block-title">Адрес:</p>
+							<p class="footer-contacts-block-text">Midtown Business Center</p>
+							<p class="footer-contacts-block-text">The One Tower</p>
+							<p class="footer-contacts-block-text">Sheikh Zayed Road</p>
+							<p class="footer-contacts-block-text">Дубай, ОАЭ </p>
+						</div>
+						<div class="footer-contacts-block">
+							<p class="footer-contacts-block-title">Телефоны:</p>
+							<p class="footer-contacts-block-text">Офис: <a href="tel:+97142462911">+971 4 246 29 11</a></p>
+							<p class="footer-contacts-block-text">Директор: <a href="tel:+971561407777">+971 56 140 7777</a></p>
+							<p class="footer-contacts-block-text">Email: <a href="mailto:Company@gmail.com">Company@gmail.com</a></p>
+							<ul class="footer-social">
+								<li class="footer-social-item"><a href="#" class="footer-social-link whatsapp"><span class="icon-whatsapp"></span></a></li>
+								<li class="footer-social-item"><a href="#" class="footer-social-link fb"><span class="icon-facebook"></span></a></li>
+								<li class="footer-social-item"><a href="#" class="footer-social-link insta"><span class="icon-instagram"></span></a></li>
+								<li class="footer-social-item"><a href="#" class="footer-social-link youtube"><span class="icon-youtube"></span></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="footer-content-block">
+					<p class="footer-content-block-title">Страницы</p>
+					<ul class="footer-menu">
+						<li class="footer-menu-item"><a href="#" class="footer-menu-link">Главная</a></li>
+						<li class="footer-menu-item"><a href="#" class="footer-menu-link">Terms & conditions</a></li>
+						<li class="footer-menu-item"><a href="#" class="footer-menu-link">Автомобили</a></li>
+						<li class="footer-menu-item"><a href="#" class="footer-menu-link">Privacy & policy</a></li>
+						<li class="footer-menu-item"><a href="#" class="footer-menu-link">Прайс - лист</a></li>
+						<li class="footer-menu-item"><a href="#" class="footer-menu-link">Payment & refund</a></li>
+						<li class="footer-menu-item"><a href="#" class="footer-menu-link">Контакты</a></li>
+						<li class="footer-menu-item"><a href="#" class="footer-menu-link">nsurance</a></li>
+						<li class="footer-menu-item"><a href="#" class="footer-menu-link">Правила и условия</a></li>
+					</ul>
+				</div>
+				<div class="footer-content-block">
+					<p class="footer-content-block-title">Наши бренды</p>
+					<ul class="footer-menu">
+						<li class="footer-menu-item"><a href="#" class="footer-menu-link">Audi</a></li>
+						<li class="footer-menu-item"><a href="#" class="footer-menu-link">BMW</a></li>
+						<li class="footer-menu-item"><a href="#" class="footer-menu-link">Bentley</a></li>
+						<li class="footer-menu-item"><a href="#" class="footer-menu-link">Bugatti</a></li>
+						<li class="footer-menu-item"><a href="#" class="footer-menu-link">Cadillac</a></li>
+						<li class="footer-menu-item"><a href="#" class="footer-menu-link">Chevrolet</a></li>
+						<li class="footer-menu-item"><a href="#" class="footer-menu-link">Lamborghini</a></li>
+						<li class="footer-menu-item"><a href="#" class="footer-menu-link">Maserati</a></li>
+						<li class="footer-menu-item"><a href="#" class="footer-menu-link">McLaren</a></li>
+						<li class="footer-menu-item"><a href="#" class="footer-menu-link">Mercedes-Benz</a></li>
+						<li class="footer-menu-item"><a href="#" class="footer-menu-link">Porsche</a></li>
+						<li class="footer-menu-item"><a href="#" class="footer-menu-link">Range Rover</a></li>
+						<li class="footer-menu-item"><a href="#" class="footer-menu-link">Rolls Royce</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+</body>
+
+</html>
