@@ -1,21 +1,30 @@
 $(function () {
 	new WOW().init();
 
-	$('.owl-carousel.delivery-slider').owlCarousel({
+	$('.owl-carousel.card-slider').owlCarousel({
 		center: true,
 		items: 1,
 		loop: true,
 		margin: 10,
 		nav: true,
+		dots: true,
 		smartSpeed: 1500,
-		navText: ['<span class="icon-caret-down2"></span>', '<span class="icon-caret-down2"></span>'],
+		navText: ['<span class="slider-left"></span>', '<span class="slider-right"></span>'],
+	});
+	
+	$('.owl-carousel.review-slider').owlCarousel({
+		items: 3,
+		loop: true,
+		margin: 10,
+		nav: false,
+		dots: true,
+		smartSpeed: 1500,
 		responsive: {
-			300: {
-				dots: true,
-				nav: false,
+			768: {
+				items: 2,
 			},
-			750: {
-				dots: false,
+			1050: {
+				items: 3,
 			}
 		}
 	});
