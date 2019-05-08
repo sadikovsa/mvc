@@ -46,6 +46,17 @@
 	<header id="header" class="header header-inner">
 		<div class="container">
 			<div class="header-content">
+				<div class="burger d-block d-lg-none">
+					<input type="checkbox" id="burgerBtn" class="burger-checkbox d-none">
+					<label for="burgerBtn">
+						<div class="hamburger">
+							<span class="bar bar1"></span>
+							<span class="bar bar2"></span>
+							<span class="bar bar3"></span>
+							<span class="bar bar4"></span>
+						</div>
+					</label>
+				</div>
 				<ul class="header-menu">
 					<li class="header-menu-item"><a href="#" class="header-menu-link">Главная</a></li>
 					<li class="header-menu-item"><a href="#" class="header-menu-link">Авто</a></li>
@@ -59,9 +70,9 @@
 				<div class="header-right">
 					<button type="button" class="callback-btn">
 						<span class="icon-phone"></span>
-						Call us
+						<span class="text">Call us</span>
 					</button>
-					<a href="#" class="header-whatsupp"><span class="icon-whatsapp"></span></a>
+					<a href="#" class="header-whatsupp d-none d-lg-flex"><span class="icon-whatsapp"></span></a>
 					<div class="header-lang">
 						<a href="#" class="header-lang-active"><img src="img/icons/translate-icon.png" alt="icon">ENGLISH</a>
 						<ul class="header-lang-menu">
@@ -70,7 +81,7 @@
 							<li class="header-lang-menu-item"><a href="#" class="header-lang-menu-link">CHINA</a></li>
 						</ul>
 					</div>
-					<ul class="header-social">
+					<ul class="header-social d-none d-lg-flex">
 						<li class="header-social-item"><a href="#" class="header-social-link fb"><span class="icon-facebook"></span></a></li>
 						<li class="header-social-item"><a href="#" class="header-social-link insta"><span class="icon-instagram"></span></a></li>
 						<li class="header-social-item"><a href="#" class="header-social-link youtube"><span class="icon-youtube"></span></a></li>
